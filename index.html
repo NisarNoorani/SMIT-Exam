@@ -4,18 +4,6 @@
 <head>
     <meta charset="utf-8">
     <title>SMIT IT professionals</title>
-    <style>
-        df-messenger {
-            /* --df-messenger-bot-message: url("img/logo.png") */
-            --df-messenger-icon: url('img/logo.jpg');
-            --df-messenger-icon-size: 48px; /* Adjust size if needed */
-          --df-messenger-button-titlebar-color: #008b05;
-          --df-messenger-font-color: #020000;
-          --df-messenger-chat-background-color: #f1f1f1;
-          --df-messenger-button-titlebar-font-color: #ffffff;
-          --df-messenger-send-icon: #008b05;
-        }
-      </style>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Saylani Mass it training courses IT developers" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -681,6 +669,16 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="Saylani-Agent"
+    agent-id="a5a106c6-d594-41db-8066-6d944b5316b2"
+    language-code="en"
+    style="--df-messenger-title-bar-color: #006400;"
+    profile-image="https://source.unsplash.com/random/50x50"
+  ></df-messenger>
+  
 </body>
 
 </html>
