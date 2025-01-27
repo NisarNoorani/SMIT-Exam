@@ -2372,39 +2372,39 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #008b05;
-  border-color: #008b05;
+  background-color: #008b05; /* Green as the main theme */
+  border-color: #008b05; /* Green for border */
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #1465d9;
-  border-color: #135fcd;
+  background-color: #005d00; /* Slightly darker green for hover */
+  border-color: #005d00; /* Matching darker green border */
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #1465d9;
-  border-color: #135fcd;
-  box-shadow: 0 0 0 0.2rem rgba(72, 140, 238, 0.5);
+  background-color: #005d00; /* Darker green for focus */
+  border-color: #004b00; /* Even darker green for border */
+  box-shadow: 0 0 0 0.2rem rgba(0, 93, 0, 0.5); /* Light green glow for focus */
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #008b05;
-  border-color: #008b05;
+  background-color: #008b05; /* Disabled state with original green */
+  border-color: #008b05; /* Disabled state with original green */
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #135fcd;
-  border-color: #125ac1;
+  background-color: #004b00; /* Even darker green when active */
+  border-color: #003d00; /* Dark green for active state border */
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(72, 140, 238, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 93, 0, 0.5); /* Subtle green focus glow */
 }
 
 .btn-secondary {
@@ -9771,7 +9771,7 @@ h6,
 .back-to-top {
   position: fixed;
   display: none;
-  right: 30px;
+  left: 30px;
   bottom: 30px;
   z-index: 11;
 }
